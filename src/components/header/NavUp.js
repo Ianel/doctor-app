@@ -4,7 +4,7 @@ import React from 'react';
 
 const NavUp = () => {
   return (
-        <nav className='hidden md:hidden md:border-b-2 md:mx-16 lg:flex md:justify-end md:items-center md:p-3 bg-white text-[#516191]'>
+        <nav className='hidden md:hidden md:border-b-2 md:mx-16 lg:flex md:justify-center md:items-center md:p-3 bg-white text-[#516191]'>
             <div className='md:mx-4 md:flex md:items-center'>
                 <FontAwesomeIcon className='md:mr-3 bg-blue-200 md:text-3xl md:p-2 rounded-full' icon={faPhoneAlt} />
                 <span>+261 32 00 550 01</span>
