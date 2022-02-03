@@ -17,7 +17,7 @@ const NavUp = () => {
                 <FontAwesomeIcon className='md:mr-3 bg-blue-200 md:w-12 md:h-7 md:text-4xl md:p-2 rounded-full' icon={faMapMarkerAlt} />
                 <span>Lot 421, Rue St Patrick</span>
             </div>
-            <button className='bg-pink-600 md:py-3 md:px-5 text-white md:rounded-3xl'>Prendre rendez-vous</button>
+            <a href='#rdv' className='bg-pink-600 md:py-3 md:px-5 text-white md:rounded-3xl'>Prendre rendez-vous</a>
         </nav>
     );
 };
