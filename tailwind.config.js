@@ -3,7 +3,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      borderRadius: {
+        '50p': 'border-radius: 50%',
+      }
+    },
   },
   plugins: [],
 }
