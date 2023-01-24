@@ -34,7 +34,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-           <p className='text-center'>&copy; Copyright 2022 - Tous droits réservés</p>
+           <p className='text-center'>&copy; Copyright {new Date(Date.now()).getFullYear()} - Tous droits réservés</p>
         </footer>
     );
 };
